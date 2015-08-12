@@ -141,8 +141,14 @@ footer {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 950px;
+  min-height: 800px;
   padding: 0 20px;
+  -moz-box-shadow: 0 0 7px #ccc;
+-webkit-box-shadow: 0 0 7px #ccc;
+box-shadow: 0 0 7px #ccc;
+ border: 1px;
+
 }
 
 .center {
@@ -281,3 +287,4 @@ dl,
     background-position: center center;
   }
 }
+
