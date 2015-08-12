@@ -4,6 +4,9 @@
 - url: /about
   title: About
 
-- url: /blogs
-  title: Blog
+- url: /Technologies
+  title: Technologies
+
+- url: /Projects
+  title: Projects
   
