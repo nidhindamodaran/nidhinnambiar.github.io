@@ -8,4 +8,4 @@ title: About
 
 ## Nidhin Nambiar
 
-(dnidhin5@gmail.com)
+([dnidhin5@gmail.com])
