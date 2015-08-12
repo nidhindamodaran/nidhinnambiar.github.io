@@ -3,4 +3,5 @@ layout: page
 title: About
 ---
 
-Nothing yet :(
+Nidhin Nambiar
+dnidhin5@gmail.com
