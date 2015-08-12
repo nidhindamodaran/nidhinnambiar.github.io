@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nidhin.me</title>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <description>It's simple. It's easy to use. It's a Jekyll theme.</description>
+    <language>en-us</language>
+    <pubDate>Wed, 12 Aug 2015 16:30:58 +0530</pubDate>
+    <lastBuildDate>Wed, 12 Aug 2015 16:30:58 +0530</lastBuildDate>
+
+    
+      <item>
+        <title>Ruby Basics</title>
+        <link>/ruby-basics</link>
+        <pubDate>Sat, 15 Aug 2015 00:00:00 +0530</pubDate>
+        <author>Nidhin Nambiar</author>
+        <description></description>
+      </item>
+    
+
+  </channel>
+</rss>
