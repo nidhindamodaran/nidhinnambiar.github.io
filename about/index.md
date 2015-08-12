@@ -6,6 +6,6 @@ title: About
 ---
 
 
-Nidhin Nambiar
+## Nidhin Nambiar
 
-dnidhin5@gmail.com
+(dnidhin5@gmail.com)
