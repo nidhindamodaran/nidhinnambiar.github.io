@@ -4,8 +4,11 @@ title: About
 ---
 
 
-## Nidhin Nambiar
 
-[dnidhin5@gmail.com]
+
+
+#### Nidhin Nambiar
+
+dnidhin5@gmail.com
 
 -----
