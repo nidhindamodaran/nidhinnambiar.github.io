@@ -1,3 +1,4 @@
+{% highlight bash %}
 require './app/controller/person_controller.rb'
 require './app/controller/session_controller.rb'
 
@@ -43,3 +44,4 @@ class Router
 
 end
 
+{% endhighlight %}
