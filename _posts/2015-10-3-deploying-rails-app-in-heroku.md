@@ -54,3 +54,18 @@ After creating each changes in project you had add  and commit then
 ```bash
 git push heroku master
 ```
+####5.Run DB migrations on Heroku
+This is for running database migrations in heroku db
+
+```bash
+heroku run rake db:migrate
+```
+
+####6.Final
+
+Final step, nothing but open your application
+
+```bash
+heroku open
+```
+Tada your heroku app is now live
