@@ -23,3 +23,34 @@ First replace
 ```ruby
 gem 'sqlite3'
 ```
+with
+
+```ruby
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+```
+Here specifies the gem required for production in heroku, and now apply the changes
+
+```bash
+bundle install --without production
+```
+
+####3.Commit changes
+
+```bash
+git add .
+git commit -m "Gemfile changed"
+```
+
+####4.Pushing to Heroku
+After creating each changes in project you had add  and commit then
+
+```bash
+git push heroku master
+```
