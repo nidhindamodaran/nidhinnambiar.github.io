@@ -1,36 +1,16 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    {% include head.html %}
-    <meta name="description" content="I am a full stack web developer (Ruby On Rails) currently working in a bangalore based IT startup Foradian Technologies and a great lover of opensource contributions. Has working experience and knowledge in Ruby on Rails, HTML 5, CSS, JQuery. My hobbies includes Reading, Travelling, Photography and so much more.">
-  </head>
-  <body>
-    <div class="container azul">
-      <header class="top row gutters{% if page.title == "Home" %} fadeInLeft animated{% endif %}">
-        <div class="col span_2 center">
-          <!-- TODO: add baseurl to the logo link -->
-          <a href="{{ site.url }}" id="logo" title="{{ site.data.brume.name }}"
-             style="background-image: url(https://avatars1.githubusercontent.com/u/9497714?v=3&s=460);"></a>
-        </div>
-        {% include navigation.html %}
-      </header>
+<html lang="en">
 
-      {{ content }}
+{% include head.html %}
 
-      <footer>
-        <p>
-          © nidhin.me 2015 | Powered by <a rel="license" href="http://spherebyte.in">spherebyte.in</a>.
-        </p>
-      </footer>
-    </div>
+<body>
 
-    <!-- scripts -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="{{site.baseurl}}/public/js/jquery.fitvids.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("article").fitVids();
-      });
-    </script>
-  </body>
+    {% include nav.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+</body>
+
 </html>
