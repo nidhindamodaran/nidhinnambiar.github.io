@@ -1,36 +1,39 @@
 ---
-layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
+layout: default
+title: Home
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+<section class="archive">
+{% for post in site.posts %}
+{% unless post.next %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
+{% unless forloop.first %}</div></div>{% endunless %}
+
+  <div class="bundle row gutters fadeInDown animated">
+    <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
+    <div class="posts-by-year col span_10">
+
+{% else %}
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+{% if year != nyear %}
+
+{% unless forloop.first %}</div></div>{% endunless %}
+
+  <div class="bundle row gutters fadeInDown animated">
+    <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
+    <div class="posts-by-year col span_10">
 {% endif %}
+{% endunless %}
+
+  <article class="row gutters">
+    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
+    <div class="post-date col span_4">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
+    </div>
+  </article>
+
+{% if forloop.last %}</div></div>{% endif %}
+
+{% endfor %}
+</section>
