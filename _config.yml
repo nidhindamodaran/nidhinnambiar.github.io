@@ -3,8 +3,8 @@ title: Nidhin D
 description: 'An enthusiastic Ruby developer'
 url: 'http://nidhin.me'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
- disqus_shortname: 'nidhin_nambiar'
+google_analytics: 'UA-77782492-1'
+disqus_shortname: 'nidhin_nambiar'
 
 author:
   name: 'nidhin.me'
