@@ -1,8 +1,8 @@
 ---
 title:  "Configuring and Installing RVM"
 date:   2016-01-08 15:04:23
-categories: [jekyll]
-tags: [jekyll]
+categories: [Ruby]
+tags: [ruby]
 ---
 
 Ruby Version Manager(**RVM**), is for managing multiple installations of Ruby on same machine.The different versions can then be switched between to enable a developer to work on several projects with different version requirements
