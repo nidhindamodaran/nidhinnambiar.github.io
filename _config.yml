@@ -134,8 +134,8 @@ email: "touch@nidhin.me"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Nidhin Nambiar is a enthusiastic full stack ruby on rails developer. Currently working at Foradian Technologies as RoR Developer"
-author_blurb_image: "/img/profile.jpg"
+author_blurb: "Nidhin is a enthusiastic full stack ruby on rails developer. Currently working at Foradian Technologies as RoR Developer"
+author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
