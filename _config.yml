@@ -1,6 +1,6 @@
 # Site settings
 title: Nidhin Nambiar
-description: 'An enthusiastic Ruby developer'
+description: 'Yet another enthusiastic Ruby developer !'
 url: 'http://nidhin.me'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -8,9 +8,11 @@ baseurl: '/'
 
 author:
   name: 'Nidhin Nambiar'
-  email: touch@nidhin.com
-  facebook_username: nidhnnambiar
+  email: touch@nidhin.me
+  twitter_username:
+  facebook_username: nidhinnambiar
   github_username:  nidhinnambiar
+  linkedin_username:
 
 defaults:
   -
