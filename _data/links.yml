@@ -1,0 +1,15 @@
+- url: /
+  title: Home
+
+- url: /about
+  title: About
+
+- url: /Technologies
+  title: Technologies
+
+- url: /Projects
+  title: Projects
+
+- url: /Contact
+  title: Contact Me
+  
