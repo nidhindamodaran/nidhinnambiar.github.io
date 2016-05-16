@@ -1,62 +1,25 @@
 ---
-title:  "Configuring and Installing RVM"
-date:   2016-05-16 15:04:23
+title:  "Welcome to Jekyll!"
+date:   2016-01-08 15:04:23
 categories: [jekyll]
 tags: [jekyll]
 ---
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Ruby Version Manager(**RVM**), is for managing multiple installations of Ruby on same machine.The different versions can then be switched between to enable a developer to work on several projects with different version requirements
+Jekyll also offers powerful support for code snippets:
 
-
-1.Download script
-
-```bash
-\curl -sSL https://get.rvm.io | bash -s stable
-```
-This will install latest release version,
-
-For latest development state
-
-```bash
-\curl -sSL https://get.rvm.io | bash
-```
-2.Load RVM into your shell as a function
-
-```bash
-source /etc/profile
+``` ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
 ```
 
-3.Reload shell configuration & test
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-```bash
-source ~/.rvm/scripts/rvm
-```
-Type below in terminal and will show RVM is a function
-```bash
-type rvm | head -n 1
-rvm is a function
-```
-
-4.Installing specific versions of ruby using rvm
-
-
-```bash
-rvm list known
-```
-This will list all ruby binaries known.
-
-For installing a specific version in list (eg. 2.2.2)
-```bash
-rvm install 2.2.2
-```
-After installing, we can choose ruby version as
-```bash
-rvm use 2.2.2
-```
-Also we can set default ruby versons
-```bash
-rvm use 2.2.2 --default
-```
-
-Enjoy using RVM
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
