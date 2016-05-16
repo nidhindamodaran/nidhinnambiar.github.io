@@ -1,124 +1,45 @@
-![Build Status](https://travis-ci.org/PanosSakkos/personal-jekyll-theme.svg?branch=master)
-[![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PanosSakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# jekyll-uno
 
-# { Personal } Jekyll Theme
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
-{ Personal } is a free responsive Jekyll theme, about you :wink:
+> :warning:
+  This theme requires ruby and rubygems installed
 
-You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-theme/)!
+### Features
 
-## What value does { Personal } add
+* Clean layout
+* Resposive layout
+* Pagination
+* Syntax highlighting
+* Social links
+* Tags listing page
+* Categories listing page
+* Google Analytics integration
+* Disqus integration
 
-* Fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale) and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
-  * Modern and minimal design
-    * Responsive templates for home page, blog archive and posts. Looks great on mobile, tablet, and desktop devices
-    * Sweet animations
-    * Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers
-  * Timeline
-    * Tell your story so far with a sleek timeline of dates, pictures and descriptions
-  * White on black text, making the reading experience tireless
-  * Google analytics  
-* Customization and full control of your website and blog through the site config
-* Customization of the website's coloring
-* Blogging functionality
-  * Preview of the latest post in the home page
-  * Archive page
-  * Syntax highlighting
-  * Emojis
-  * Gesture navigation in archive and post pages by swiping
-  * Hashtags
-  * Categories
-  * Disqus comments
-  * Bootstrap share buttons
-  * RSS feed
-* Author blurb under the posts
-* 404 page
-* iOS and Android Web App mode
-* Enforcing of https protocol
-* Protection from email harvesting
-* Sitemap
-* Travis CI integration with [html-proofer](https://github.com/gjtorikian/html-proofer)
+---
 
-## { Personal } à la JekyllNow
+### Install and Test
 
-Want to get { Personal } without messing with jekyll installations and terminal commands?
+1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
+2. Enter the folder: `cd jekyll-uno/`
+3. If you don't have bundler installed: `gem install bundler`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `jekyll serve`
 
-  1. Fork the personal-jekyll-theme repository
-  2. Rename the forked repository to yourgithubusername.github.io
-  3. Visit https://yourgithubusername.github.io
-  4. Start modifying the \_config.yml and editing your blog's posts from Github's online editor or a third party online editor (i.e. [Prose](https://prose.io/))
+Access via: [http://localhost:4000/jekyll-uno](http://localhost:4000/jekyll-uno)
 
-## Documentation
+---
 
-The theme contains documentation in the form of [blog posts](https://panossakkos.github.io/personal-jekyll-theme/blog/index.html).
+### Demo and Download
 
-## Screenshots
-### Header
-![Intro](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/index.jpg)
-### About
-![About](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/about.jpg)
-### Latest post preview
-![Blog](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/blog.jpg)
-### Timeline
-![Timeline](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/timeline.jpg)
-### Blog Archive
-![Archive](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/archive.jpg)
-### Gesture navigation instructions
-![Instructions](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/swipe.jpg)
-### Post page
-![Post](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/post.jpg)
-### Author blurb
-![Blurb](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/blurb.jpg)
-### Hashtags
-![Tags](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/tags.jpg)
-### Categories
-![Categories](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/categories.jpg)
-### 404
-![404](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/404.jpg)
-### Mobile rendering
-![Web App](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/web-app.jpg)
-### Web App mode
+[Demo](http://joshgerdes.com/jekyll-uno/)
+[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
 
-![iOS](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/ios.jpg)
+![jekyll-uno - free Jekyll theme](/screenshot.png)
 
-![Android](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/pinned.jpg)
+---
 
-## How to run locally
+### Copyright and license
 
-First, you need to install jekyll and the dependencies of { Personal } by running:
-
-````
-./scripts/install
-````
-
-Then, you can build and serve your website by simply running:
-
-````
-./scripts/serve-production
-````
-
-## Wiki
-
-Don't forget to list your { Personal } blog in the [Blogs using { Personal }](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Blogs-using-%7B-Personal-%7D) wiki page in order to drive some traffic to your website :wink:
-
-## Integrating bug fixes and features into your old fork
-
-Have you published your own website by forking { Personal } and now you want to get the latest bug fixes and features from this repo into your website?
-Then check [this](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Upgrading-your-%7B-Personal-%7D-website-with-our-latest-bug-fixes-and-features) out.
-
-## OSS used in { Personal }
-
-One of the reasons { Personal } is real is the following OSS projects:
-
-  1. [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
-  2. [hammer.js](https://hammerjs.github.io/)
-  3. [highlightjs](https://highlightjs.org/)
-  4. [RRSSB](https://github.com/kni-labs/rrssb)
-  5. [Timeline](https://github.com/kirbyt/timeline-jekyll-theme)
-  6. [typed.js](https://github.com/mattboldt/typed.js/)
-
-## Supporting the repo
-
-Proposals, pull requests and issues are more than welcome, let's make the web a bit more beautiful and secure :wink:
-
-In case you want to say thank you by donating Bitcoins to all the contributors, [this](https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi) is our address.
+It is under [the MIT license](/LICENSE).
