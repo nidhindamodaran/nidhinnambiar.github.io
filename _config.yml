@@ -63,7 +63,7 @@ me-img: "/img/profile.jpg"
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
+color-browser: "#ffffff"
 apple-status-bar-style: "black"
 
 ################
@@ -100,7 +100,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "nambiar"
 
 syntax-highlight: True
 
@@ -134,7 +134,7 @@ email: "touch@nidhin.me"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Nidhin is a enthusiastic full stack ruby on rails developer. Currently working at Foradian Technologies as RoR Developer"
+author_blurb: "Nidhin is an enthusiastic full stack ruby on rails developer. Currently working at Foradian Technologies as RoR Developer"
 author_blurb_image: "/img/author.png"
 
 ##################
