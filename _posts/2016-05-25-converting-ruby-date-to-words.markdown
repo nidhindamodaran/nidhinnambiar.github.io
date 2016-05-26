@@ -6,7 +6,7 @@ tags: [ruby gems]
 ---
 
 
-[date_to_word](http://rubygems.org/date_to_word) is usefull for those who are got hooked in converting ruby date object into words. While developing an rails application i felt hard to find the methods to get date in words, something like '22/01/1994' as 'Twenty two Janvery Ninteen ninty four'. Which motivated me to write a [gem](http://rubygems.org/date_to_word) that convert ruby date object into words.
+[date_to_word](https://rubygems.org/gems/date_to_word) is usefull for those who are got hooked in converting ruby date object into words. While developing an rails application i felt hard to find the methods to get date in words, something like '22/01/1994' as 'Twenty two Janvery Ninteen ninty four'. Which motivated me to write a [gem](https://rubygems.org/gems/date_to_word) that convert ruby date object into words.
 
 ## 1.Installation
 
