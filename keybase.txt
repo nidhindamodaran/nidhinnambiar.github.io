@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/nidhinnambiar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://nidhin.me
+  * I am nidhinnambiar (https://keybase.io/nidhinnambiar) on keybase.
+  * I have a public key with fingerprint 6AD9 B2C0 1E8C ACE1 82B2  1275 2BD3 2CCD D19A 2526
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010bb97156485614730c8f8b893712da55270e7b6e97ccc49bb75f247568c0df6f0a",
+            "fingerprint": "6ad9b2c01e8cace182b212752bd32ccdd19a2526",
+            "host": "keybase.io",
+            "key_id": "2bd32ccdd19a2526",
+            "kid": "01010bb97156485614730c8f8b893712da55270e7b6e97ccc49bb75f247568c0df6f0a",
+            "uid": "0ea1dd2506c8bc7712fb45fb14ca1419",
+            "username": "nidhinnambiar"
+        },
+        "service": {
+            "hostname": "nidhin.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1471582165,
+    "expire_in": 157680000,
+    "prev": "c8515f95dacde4e7da35dfcbf5c6cbaad25beaec1c94818281635f9b1cf28604",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJbSFRBGF5zM10QBDEqoei0kC2bnjl75lz2IQgsqIRa7GKlrXM76+ly
+dj27arEK3eihm2VgRhFREITdyMysh1wTErtsUEmRgUkUUvkQRC1hNKfLQ9BjMw8z
+/z/f9833z/wD+dkuT1b5uY6+K+OnerPupzoaXOtutD5LCjhKdwjBpLCF/VzYVsri
+ifAWkwpBQQR8YqyrACqyBhUgqwGRaIaGNT2gAokiCCVVZCpWmK4SQmQdYxUakqxC
+RSMiNRRDRIJfMEwrwuyYbVoJLqsgqmOJiIBpBBEGNAlLQFKhhGlAIoRSoCMJSgon
+1kXjDoObwyjOSs0oz/Eg/NPeP/D/2XfDLzmGAKUSFBWiYaJyAQPL0MBAJgjIQHeA
+cWZbaBvjaMukdabFA2wiW2jxC/yo0STMeV2nnL9gpXzvF2J2NBEl0a08XZdIxIIO
+K7Ej5sCaGA7/Fghj06L8ITmhkdlxM2oJQcCRJGE6irxIADUJKNAvsO0x02Zh00FA
+VdFEPpxrWCOXJBoE0NAhRYQymakUBSA1CDYgUQhGiFeKGWIEEF3W+OdoQAlwPAbE
+kDRFlAWnpHorKgRlbhNFuGTcjFgo0WAzoaW/r9rtyvK4cqZOcRrM5ckr+NN2S0tz
+Xfs3VN44+PzFo5fKvvWbF3UfKCIP5Qvj7+vDL4+sePrxQ/Ola0uOeU/ysDV7VvLM
+W++L3NWvMt8nRV/yzO3awYoFxwc8C/NHr688Oru4P3Sr8ubMtK/z0eV7va1dy842
+HT67Zqzt05tvJ9LLLw6OXHE3P757rVBK33vnjrePpgLTfO4OOiNVhSfavmgbR3Y1
+lxfpbbJv7cdUT7Y2Nmd46E71plXh0Ney9t3L7GKxxFPjPZ1xV9Tqoe5PnwtunU8O
+CXOLy30jE5HtXxc9WPwgFz/Oyw8tTPfvrNpbtuTQ5ZzXTzItJd7QnvnvxnumRyaL
+180bZp2Fn4djV4uSYqbFm9dV8wPLuEXF
+=F8b+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nidhinnambiar
+
+==================================================================
