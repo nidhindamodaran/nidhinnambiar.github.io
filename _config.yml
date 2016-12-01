@@ -1,23 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Nidhin D
-email: dnidhin5@gmail.com
+title: Blog
+desctiption: Blog by Nidhin Nambiar
+url: http://webjeda.com/
+permalink: ':title/'
 
-#write html inside the double quotes to display in jumbotron
-description: "<h3>Hello, world!</h3><h1>DevJournal</h1><h3>An enthusiastic web developer</h3>"
-
-
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://nidhinnambiar.github.io" # the base hostname & protocol for your site
-twitter_username: nidhin_nambiar
-github_username:  nidhinnambiar
-
-# Build settings
 markdown: kramdown
+baseurl: "/blog"
+
+
+sass:
+    style: compressed
+
+  
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+highlight: rouge
+
+
+# Tracker
+analytics: UA-83979019-1
+
+# Comments
+disqus-shortname: Nambiar
+
+# Contact form
+# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
+api-token:   
+
+include: [_pages]
+version: 0.8
+
+gems: [jekyll-paginate, jekyll-seo-tag]
