@@ -5,7 +5,7 @@ url: http://nidhinnambiar.github.io/
 permalink: ':title/'
 
 markdown: kramdown
-baseurl: "/"
+baseurl: ""
 
 
 sass:
