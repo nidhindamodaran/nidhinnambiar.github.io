@@ -157,8 +157,9 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 13px;
     border-radius: 3px;
+    font-family: monospace;
 }
 
 code {
@@ -169,7 +170,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: auto;
-    border: 1px solid $brand-color;
+    border: 1px solid #080808;
 
     > code {
         border: 0;
