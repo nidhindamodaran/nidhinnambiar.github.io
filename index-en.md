@@ -10,34 +10,19 @@ permalink: /index.html
 header:
   image: /assets/img/home-header.jpg
 tagline: > # this means to ignore newlines until "repository:"
-  Write an awesome description for your new site here. You can edit this
-  line in index.md. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Human being writing code for living. In love with Ruby and Ruby on Rails
 excerpt: >
   Write an awesome description for your new site here. You can edit this
   line in index.md. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 repository:
-  is_project_page: true
-  show_downloads: true
-  repository_url: https://gitlab.com/lorepirri/jekyll-theme-simple-blog
-  zip_url: https://gitlab.com/lorepirri/jekyll-theme-simple-blog/repository/master/archive.zip
-  tar_url: https://gitlab.com/lorepirri/jekyll-theme-simple-blog/repository/master/archive.tar.gz
+  is_project_page: false
+  show_downloads: false
 ref: home
 lang: en
 ---
 
-Simple Blog Theme is a clean, responsive blogging theme for Jekyll, with social features. It is inspired by the Cayman Blog Theme.
-
-This theme has all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
-
-It has already a Facebook Page associated with it, which gathers all the interactions.
-
-{% include facebook-page-summary.html %}
-
-Have a look at the Github page for more information.
-
-You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
+Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Writes code in Ruby and builds promising web applications and services in Ruby on Rails. Strong engineering professional with a Bachelor's Degree focused in Computer Science and Engineering from College of Engineering Thalassery.
 
 <h2>Latest Articles</h2>
 <div>&nbsp;</div>
@@ -45,6 +30,6 @@ You find this descriptive text in the `index.md` file, so you can change it, or 
 
 ---
 
-<h2>Latest 3 Projects</h2>
+<h2>Latest Projects</h2>
 <div>&nbsp;</div>
-{% include list-category-posts.html lang=page.lang category="projects" max=3 %}
+{% include list-category-posts.html lang=page.lang category="projects" max=1 %}

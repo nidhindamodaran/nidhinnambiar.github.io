@@ -9,9 +9,7 @@
 title: Nidhin D
 email: nidhin.d.nambiar@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Human being writing code for living. In love with Ruby and Ruby on Rails
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://nidhinnambiar.github.io" # change this to the base hostname & protocol for your site
 
