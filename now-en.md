@@ -11,10 +11,13 @@ ref: now
 lang: en
 order: 1
 ---
-This is a [now page](http://nownownow.com/about){:target="_blank"}, and it was inspired by [the /now movement](https://sivers.org/nowff){:target="_blank"}. If you have your own site, [you should make one](http://nownownow.com/about){:target="_blank"}, too.
+Here’s what I’m working on now, in no particular order:
 
-_Updated on_ **25 Settembre 2017**.
+* **Trying something new (Elixir)**
 
-Here write what you are up to now.
+    Obviously elixir is new to me, since i was working for a bangalore based startup which uses *ruby* only. Many ruby    communities in *bangalore* slowly introduced **Elixir** in to talks. So 2018 is for elixir, and to build something
+    
+* **ConnectedInn and GreenWindow in bucket list**
 
-{% include go-to-home-page.html %}
+    `ConnectedInn` and `GreenWindow` is two of my hobby projects which started couple of months before. `ConnectedInn` is somewhat inherited for LinkedIn.`GreenWindow` is kind a recruitment platform for startups with live coding interview support and which is a multi-tenant application. Both in ruby on rails. 
+    
