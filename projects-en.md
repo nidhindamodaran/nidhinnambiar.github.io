@@ -13,8 +13,4 @@ order: 1
 category: projects
 ---
 
-These are your projects, listed chronologically. If you are not interested in showing off your projects, delete this page.
-
-<h2>Recent Projects</h2>
-<div>&nbsp;</div>
 
