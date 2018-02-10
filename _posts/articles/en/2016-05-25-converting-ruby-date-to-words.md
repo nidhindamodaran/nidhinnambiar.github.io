@@ -7,7 +7,7 @@ header:
   image: /assets/patterns/asanoha-400px.png
 repository:
   is_project_page: true
-  show_downloads: true
+  show_downloads: false
   repository_url: http://github.com/nidhinnambiar/date_to_word
 tags: ["ruby", "rubygems"]
 keywords: ruby, rubygems
