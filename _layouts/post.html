@@ -2,21 +2,30 @@
 layout: default
 ---
 
-<div class="page-container">
-   {% if page.img %}
-    <img class="featured-img" src={{ "/images-hq/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-    {% endif %}
-    <div class="content">
-    <article>
-        <h1 class="page-title">{{page.title}}</h1>
-        {% if page.author %}
-        <div class="meta"><span><i class="fa fa-calendar-o" aria-hidden="true"></i> {{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span><span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> {{page.author}}</span></div>
-        {% endif %}
-        {{page.content | markdownify}}
-    </article>
-            {% if page.categories %}
-                {% include disqus.html %}
-            {% else %}
-            {% endif %}
-    </div>
-</div>
+{% include article-author-bio-small.html %}
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div itemprop="articleBody">
+    {% include facebook-like-post.html %}
+    <br />
+    {{ content }}
+    <br />
+    {% include facebook-like-post.html %}
+    {% include facebook-comments.html %}
+  </div>
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+
+  {% if site.facebook.pixelcode %}
+  <!-- Facebook Pixel Code -->
+  <script>
+  fbq('track', 'ViewContent');
+  </script>
+  <!-- End Facebook Pixel Code -->
+  {% endif %}
+
+
+</article>
